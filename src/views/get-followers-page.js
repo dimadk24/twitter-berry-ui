@@ -69,7 +69,7 @@ const rows = [
   },
 ]
 
-const GetFollowers = () => (
+const GetFollowersPage = () => (
   <MainCard title="Get followers">
     <Grid container spacing={10} marginBottom={2}>
       <Grid item xs={5}>
@@ -123,4 +123,4 @@ const GetFollowers = () => (
   </MainCard>
 )
 
-export default GetFollowers
+export default GetFollowersPage
