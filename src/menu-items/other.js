@@ -1,6 +1,7 @@
 // assets
 import { IconBrandChrome, IconHelp } from '@tabler/icons'
 
+import GroupIcon from '@mui/icons-material/Group'
 // constant
 const icons = { IconBrandChrome, IconHelp }
 
@@ -11,21 +12,12 @@ const other = {
   type: 'group',
   children: [
     {
-      id: 'sample-page',
-      title: 'Sample Page',
+      id: 'get-followers',
+      title: 'Get followers',
       type: 'item',
-      url: '/sample-page',
-      icon: icons.IconBrandChrome,
+      url: '/get-followers',
+      icon: GroupIcon,
       breadcrumbs: false,
-    },
-    {
-      id: 'documentation',
-      title: 'Documentation',
-      type: 'item',
-      url: 'https://codedthemes.gitbook.io/berry/',
-      icon: icons.IconHelp,
-      external: true,
-      target: true,
     },
   ],
 }

@@ -21,7 +21,7 @@ const UtilsTablerIcons = Loadable(
 )
 
 // sample page routing
-const SamplePage = Loadable(lazy(() => import('views/sample-page')))
+const GetFollowers = Loadable(lazy(() => import('views/get-followers')))
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -58,8 +58,8 @@ const MainRoutes = {
       element: <UtilsMaterialIcons />,
     },
     {
-      path: '/sample-page',
-      element: <SamplePage />,
+      path: '/get-followers',
+      element: <GetFollowers />,
     },
   ],
 }
