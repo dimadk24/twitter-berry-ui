@@ -4,6 +4,7 @@ import { lazy } from 'react'
 import MainLayout from 'layout/MainLayout'
 import Loadable from 'ui-component/Loadable'
 import GetFollowersPage from '../views/get-followers-page'
+import ResultsPage from '../views/results-page'
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')))
@@ -60,6 +61,10 @@ const MainRoutes = {
     {
       path: '/get-followers',
       element: <GetFollowersPage />,
+    },
+    {
+      path: '/results',
+      element: <ResultsPage />,
     },
   ],
 }

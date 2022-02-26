@@ -13,6 +13,7 @@ import {
 // project imports
 import MainCard from 'ui-component/cards/MainCard'
 import { DataGrid } from '@mui/x-data-grid'
+import { Link } from 'react-router-dom'
 
 const formatDate = (date) => {
   const options = {
@@ -50,7 +51,11 @@ const columns = [
     headerName: 'Actions',
     sortable: false,
     width: 120,
-    renderCell: () => <Button>View details</Button>,
+    renderCell: () => (
+      <Button component={Link} to="/results">
+        View details
+      </Button>
+    ),
   },
 ]
 
