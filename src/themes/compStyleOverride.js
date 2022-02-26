@@ -115,7 +115,7 @@ export default function componentStyleOverrides(theme) {
           },
         },
         input: {
-          fontWeight: 500,
+          fontWeight: 400,
           background: bgColor,
           padding: '15.5px 14px',
           borderRadius: `${theme?.customization?.borderRadius}px`,
