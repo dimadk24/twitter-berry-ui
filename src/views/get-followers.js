@@ -15,7 +15,10 @@ import MainCard from 'ui-component/cards/MainCard'
 
 const GetFollowers = () => (
   <MainCard title="Get followers">
-    <Box style={{ width: '50%' }}>
+    <Box style={{ width: '30%' }}>
+      <Box marginBottom={2}>
+        <TextField label="Task name" defaultValue="Get followers" fullWidth />
+      </Box>
       <TextField
         label="Twitter accounts"
         multiline
