@@ -8,7 +8,7 @@ const other = {
       id: 'get-followers',
       title: 'Get followers',
       type: 'item',
-      url: '/get-followers',
+      url: '',
       icon: GroupIcon,
       breadcrumbs: false,
     },

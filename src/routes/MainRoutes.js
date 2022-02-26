@@ -31,10 +31,6 @@ const MainRoutes = {
   element: <MainLayout />,
   children: [
     {
-      path: '/',
-      element: <DashboardDefault />,
-    },
-    {
       path: '/dashboard/default',
       element: <DashboardDefault />,
     },
@@ -59,7 +55,7 @@ const MainRoutes = {
       element: <UtilsMaterialIcons />,
     },
     {
-      path: '/get-followers',
+      path: '/',
       element: <GetFollowersPage />,
     },
     {
