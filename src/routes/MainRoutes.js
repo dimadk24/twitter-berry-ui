@@ -5,6 +5,7 @@ import MainLayout from 'layout/MainLayout'
 import Loadable from 'ui-component/Loadable'
 import GetFollowersPage from '../views/get-followers-page'
 import ResultsPage from '../views/results-page'
+import LikedTweetsPage from '../views/liked-tweets-page'
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')))
@@ -61,6 +62,10 @@ const MainRoutes = {
     {
       path: '/results',
       element: <ResultsPage />,
+    },
+    {
+      path: '/liked-tweets',
+      element: <LikedTweetsPage />,
     },
   ],
 }
