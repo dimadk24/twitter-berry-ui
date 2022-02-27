@@ -6,6 +6,7 @@ import Loadable from 'ui-component/Loadable'
 import GetFollowersPage from '../views/get-followers-page'
 import ResultsPage from '../views/results-page'
 import LikedTweetsPage from '../views/liked-tweets-page'
+import FilterAccountsPage from '../views/filter-accounts-page'
 
 // dashboard routing
 const DashboardDefault = Loadable(lazy(() => import('views/dashboard/Default')))
@@ -66,6 +67,10 @@ const MainRoutes = {
     {
       path: '/liked-tweets',
       element: <LikedTweetsPage />,
+    },
+    {
+      path: '/filter-accounts',
+      element: <FilterAccountsPage />,
     },
   ],
 }
