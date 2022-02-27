@@ -67,7 +67,7 @@ const rows = [
 ]
 
 const ResultsPage = () => (
-  <MainCard title='Results for "Following 5 competitors" task'>
+  <MainCard title='Results for "<task name>" task'>
     <Box style={{ height: 400 }}>
       <Grid container alignItems="center" justifyContent="space-between">
         <Grid item>
